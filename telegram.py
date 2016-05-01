@@ -19,8 +19,8 @@ def handle(msg):
     bot.sendMessage(chat_id, message)
     bot.sendPhoto(chat_id, ('command.jpg',img))
 
-bot = telepot.Bot('')
-bot.notifyOnMessage(handle)
+bot = telepot.Bot('185136018:AAElZ047OZtBvA_ktrtqEl-QXGYYbPjC_ew')
+bot.message_loop(handle)
 print '.......'
 
 while 1:
